@@ -1,0 +1,40 @@
+this the best way angular organize folder
+my-angular-project/
+├── src/
+│   ├── app/
+│   │   ├── core/
+│   │   │   ├── services/
+│   │   │   │   ├── auth.service.ts
+│   │   │   │   ├── data.service.ts
+│   │   │   │   └── ...
+│   │   │   ├── guards/
+│   │   │   ├── interceptors/
+│   │   │   ├── models/
+│   │   │   ├── modules/
+│   │   │   ├── utils/
+│   │   │   └── core.module.ts
+│   │   ├── shared/
+│   │   │   ├── components/
+│   │   │   │   ├── header/
+│   │   │   │   │   ├── header.component.ts
+│   │   │   │   │   ├── header.component.html
+│   │   │   │   │   ├── header.component.css
+│   │   │   │   │   └── ...
+│   │   │   │   ├── footer/
+│   │   │   │   ├── ...
+│   │   │   ├── directives/
+│   │   │   ├── pipes/
+│   │   │   ├── shared.module.ts
+│   │   ├── app-routing.module.ts
+│   │   ├── app.component.ts
+│   │   ├── app.component.html
+│   │   ├── app.component.css
+│   │   ├── app.module.ts
+│   │   ├── main.ts
+│   ├── assets/
+│   │   ├── images/
+│   │   ├── fonts/
+│   ├── environments/
+│   ├── styles/
+│   │   ├── _variables.scss
+│   │   ├── styles.scss
